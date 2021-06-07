@@ -8,8 +8,18 @@ app = Flask(__name__)
 def homepage():
 
     return render_template("homepage.html")
-    # "<html><body><h1>This is the homepage</h1></body></html>"
+
+
+@app.route('/resume')
+def show_resume():
+    pass
+
+
+
 
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
+
+
+# use 0.0.0.0:5000 in browser, not http://10.0.2.15:5000/
