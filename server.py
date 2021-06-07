@@ -15,6 +15,17 @@ def show_resume():
     pass
 
 
+@app.route('/about-me')
+def show_bio():
+    """ Show my personal bio, passions, etc. """
+    return render_template("bio.html")
+
+
+@app.route('my-background')
+def show_my_background():
+    """ Show page with info about my education/coding background """
+
+    return render_template("my-background.html")
 
 
 
