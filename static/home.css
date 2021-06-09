@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(253, 240, 255);
+}
+#site-name {
+    text-align: left;
+    font-family: 'Monaco', monospace;
+    color: rgb(247, 59, 190);
+    font-size: xx-large;
+}
+.navbar {
+    align-items: baseline;
+    /* text-align: center; */
+    /* background-color: orchid; */
+    margin-top: 1%;
+    border-bottom: 3px solid white;
+    border-radius: 5px;
+    text-align: right;
+    font-family: 'Monaco', monospace;
+}
+.intro-page {
+    margin-top: 7%;
+    border: 5px dotted white;
+    border-radius: 10px;
+    width: 65%;
+    text-align: center;
+    font-family: sans-serif;
+}
+.nav-item {
+    display: inline;
+}
+/* h1 {
+    font-family: monospace, "monaco";
+    color: blue;
+} */
+
+/* body {
+    text-align: center;
+} */
