@@ -21,7 +21,7 @@ def show_bio():
     return render_template("bio.html")
 
 
-@app.route('my-background')
+@app.route('/my-background')
 def show_my_background():
     """ Show page with info about my education/coding background """
 
