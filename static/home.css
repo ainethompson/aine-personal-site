@@ -1,32 +1,54 @@
 body {
     background-color: rgb(253, 240, 255);
+    margin: 1%;
 }
 #site-name {
     text-align: left;
-    font-family: 'Monaco', monospace;
-    color: rgb(247, 59, 190);
-    font-size: xx-large;
+    font-family: 'Euphoria Script';
+    color: rgb(255, 0, 179);
+    font-size: 60px;
 }
 .navbar {
-    align-items: baseline;
-    /* text-align: center; */
-    /* background-color: orchid; */
-    margin-top: 1%;
-    border-bottom: 3px solid white;
-    border-radius: 5px;
-    text-align: right;
+    margin: auto;
+    width: 95%;
+    /* margin-top: 1%; */
+    border-bottom: 2px solid white;
+    /* text-align: bottom; */
+    /* padding-left: 1%;
+    padding-right: 2%; */
     font-family: 'Monaco', monospace;
 }
-.intro-page {
-    margin-top: 7%;
-    border: 5px dotted white;
+.intro {
+    margin-top: 5%;
+    margin-left: 5%;
+    border: 2px solid white;
     border-radius: 10px;
-    width: 65%;
-    text-align: center;
+    width: 57%;
+    float: left;
+    text-align: justify;
     font-family: sans-serif;
 }
 .nav-item {
     display: inline;
+    vertical-align: baseline;
+}
+
+.my-links {
+    border: 2px solid white;
+    float: right;
+    width: 25%;
+    margin-top: 5%;
+    margin-right: 5%;
+    text-align: left;
+    font-family: 'Monaco', monospace;
+}
+
+/* .center {
+    text-align: center;
+} */
+
+.font-italic {
+    font-style: italic;
 }
 /* h1 {
     font-family: monospace, "monaco";
