@@ -4,9 +4,11 @@ body {
 }
 #site-name {
     text-align: left;
-    font-family: 'Euphoria Script';
+    font-family: 'Megrim', cursive;
     color: rgb(255, 0, 179);
-    font-size: 60px;
+    font-size: 45px;
+    /* font-stretch: ultra-condensed; */
+    /* font-style: oblique; */
 }
 .navbar {
     margin: auto;
@@ -16,7 +18,19 @@ body {
     /* text-align: bottom; */
     /* padding-left: 1%;
     padding-right: 2%; */
-    font-family: 'Monaco', monospace;
+    font-family: 'Montserrat', monospace;
+}
+.pronunciation {
+    font-family: serif;
+    color: gray;
+    /* font-style: italic; */
+    font-size: 25px;
+}
+.pronunciation-text {
+    font-size: 20px;
+    font-style: italic;
+
+
 }
 .intro {
     margin-top: 5%;
@@ -26,11 +40,12 @@ body {
     width: 57%;
     float: left;
     text-align: justify;
-    font-family: sans-serif;
+    font-family: 'Raleway';
 }
 .nav-item {
     display: inline;
     vertical-align: baseline;
+    margin-left: 10px;
 }
 
 .my-links {
