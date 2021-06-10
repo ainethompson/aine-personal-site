@@ -1,83 +1,77 @@
 body {
-    background-color: rgb(253, 227, 244);
-    margin: 10px;
+    background-color: rgb(255, 233, 248);
+    margin: 1% 2%;
 }
-/* #site-name {
-    text-align: left;
-    font-family: 'Meddon', cursive;
-    color: rgb(250, 84, 186);
-    font-size: 40px;
 
-} */
+/* NAVBAR */
+
 #name-logo {
-    width: 35%;
+    width: 26%;
     /* margin-left: 15px; */
     align-content: center;
 }
-
 a {
     text-decoration: none;
     background-color: transparent;
     color:black;
 }
-.navbar {
-    /* margin: auto; */
-    /* width: 95%; */
-    align-content: center;
-}
-
-.nav-item {
-    display: inline;
-    text-align: center;
-    /* vertical-align: baseline; */
-    margin: 15px;
-    font-family: 'Montserrat', sans-serif;
-    color: black;
-}
-
 ul {
     padding: 0px;
     margin: 0px
 }
-.left {
-    /* margin-right: 15px; */
+.nav-item {
+    display: inline;
+    text-align: center;
+    /* padding: 18px; */
+    margin: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 15px;
 }
-
-.right {
-    padding:0%
-}
-
 #left-nav {
-    justify-content: flex-start;
+    width: 33%;
+    /* display: flex; */
+    justify-content: space-between;
     margin-left: 10px;
-    border-bottom: 1px solid hotpink;
+    border-bottom: 1px solid lightgrey;
 }
-    
 #right-nav {
-    justify-content: flex-end;
+    width: 33%;
+    justify-content: space-between;
     margin-right: 10px;
-    border-bottom: 1px solid hotpink;
+    border-bottom: 1px solid lightgrey;
 }
 .home-link {
-    color: hotpink;
+    color: rgb(255, 53, 154);
 }
+
+/* HOMEPAGE BODY */
 
 .headshot {
-    width: 35%;
-    /* margin-top: 3%; */
+    width: 30%;
+    margin-left: 3%
 }
 #name {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Bodoni Moda', serif;
     font-weight: bold;
     font-size: 40px;
+    display: inline;
+    color: rgb(83, 83, 83);
 }
 #pronunciation {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Bodoni Moda', serif;
+    color: gray;
+    display: inline;
+    font-size: 25px;
 }
-
 .definition {
-    float: right;
+    align-items: right;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
 }
-.font-italic {
+#synonyms {
+    color: rgb(255, 53, 154);
+    font-family: 'Arapey', serif;
     font-style: italic;
+    font-size: 20px;
 }
