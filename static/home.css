@@ -4,48 +4,44 @@ body {
 }
 #site-name {
     text-align: left;
-    font-family: 'Megrim', cursive;
+    font-family: 'Limelight', cursive;
     color: rgb(255, 0, 179);
     font-size: 45px;
     /* font-stretch: ultra-condensed; */
     /* font-style: oblique; */
 }
-.navbar {
-    margin: auto;
-    width: 95%;
-    /* margin-top: 1%; */
-    border-bottom: 2px solid white;
-    /* text-align: bottom; */
-    /* padding-left: 1%;
-    padding-right: 2%; */
-    font-family: 'Montserrat', monospace;
-}
-.pronunciation {
+/* .pronunciation {
     font-family: serif;
     color: gray;
     /* font-style: italic; */
-    font-size: 25px;
-}
-.pronunciation-text {
+
+/* .pronunciation-text {
     font-size: 20px;
     font-style: italic;
-
-
+} */
+a {
+    text-decoration: none;
+    background-color: transparent;
+    color:black;
 }
-.intro {
-    margin-top: 5%;
-    margin-left: 5%;
-    border: 2px solid white;
-    border-radius: 10px;
-    width: 57%;
-    float: left;
-    text-align: justify;
-    font-family: 'Raleway';
+.navbar {
+    margin: auto;
+    width: 95%;
+    border-bottom: 2px solid white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: black;
+
 }
 .nav-item {
     display: inline;
     vertical-align: baseline;
-    margin-left: 10px;
+    margin: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+.home {
+    color: hotpink;
 }
 
 .my-links {
@@ -58,18 +54,17 @@ body {
     font-family: 'Monaco', monospace;
 }
 
-/* .center {
-    text-align: center;
-} */
+.intro {
+    margin-top: 5%;
+    margin-left: 5%;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 57%;
+    float: left;
+    text-align: justify;
+    font-family: 'Raleway';
+}
+
 
 .font-italic {
     font-style: italic;
-}
-/* h1 {
-    font-family: monospace, "monaco";
-    color: blue;
-} */
-
-/* body {
-    text-align: center;
-} */
