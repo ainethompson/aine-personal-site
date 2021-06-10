@@ -1,12 +1,12 @@
 body {
-    background-color: rgb(253, 240, 255);
+    background-color: rgb(253, 227, 244);
     margin: 1%;
 }
 #site-name {
     text-align: left;
-    font-family: 'Limelight', cursive;
-    color: rgb(255, 0, 179);
-    font-size: 45px;
+    font-family: 'Meddon', cursive;
+    color: rgb(250, 84, 186);
+    font-size: 40px;
     /* font-stretch: ultra-condensed; */
     /* font-style: oblique; */
 }
@@ -27,7 +27,7 @@ a {
 .navbar {
     margin: auto;
     width: 95%;
-    border-bottom: 2px solid white;
+    /* border-bottom: 1px solid lightgray; */
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
     color: black;
@@ -35,16 +35,19 @@ a {
 }
 .nav-item {
     display: inline;
-    vertical-align: baseline;
+    /* vertical-align: baseline; */
     margin: 15px;
+    /* border-bottom: 1px solid lightgray; */
     font-family: 'Montserrat', sans-serif;
     color: black;
 }
-.home {
+.home-link {
     color: hotpink;
 }
-
-.my-links {
+#name-logo {
+    width: 35%;
+}
+/* .my-links {
     border: 2px solid white;
     float: right;
     width: 25%;
@@ -52,8 +55,11 @@ a {
     margin-right: 5%;
     text-align: left;
     font-family: 'Monaco', monospace;
+} */
+.headshot {
+    width: 35%;
+    /* margin-top: 3%; */
 }
-
 .intro {
     margin-top: 5%;
     margin-left: 5%;
@@ -64,7 +70,17 @@ a {
     text-align: justify;
     font-family: 'Raleway';
 }
-
-
+#pronunciation {
+    font-family: 'Times New Roman', Times, serif;
+    /* font-weight: bold; */
+}
+#name {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+.definition {
+    float: right;
+}
 .font-italic {
     font-style: italic;
