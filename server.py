@@ -13,7 +13,7 @@ def homepage():
 @app.route('/resume')
 def show_resume():
     """Show my resume"""
-    return render_template("hb-tech-resume.html")
+    return render_template("resume.html")
 
 
 @app.route('/my-story')

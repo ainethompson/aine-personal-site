@@ -114,3 +114,11 @@ ul {
     font-style: italic;
     border-bottom: 0.5px solid rgb(248, 34, 166);
 }
+
+.resume {
+    text-align: center;
+    margin: auto;
+    align-content: center;
+    width: 92%;
+    height: calc(400px + 30vw);
+}

@@ -1,85 +1,43 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <!-- Bootstrap Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        <!-- Bootstrap CSS only -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" 
-                rel="stylesheet" 
-                integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" 
-                crossorigin="anonymous">
-        <link rel="stylesheet" href="/static/home.css">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Arapey:ital@1&family=Bodoni+Moda:wght@500;600;700&family=Cormorant+Garamond:wght@500&family=Montserrat&display=swap" rel="stylesheet">
-        
-        <title>ÁINE THOMPSON</title>
-    </head>
-    <body>
-        <nav class="navbar">
-            <ul id="left-nav" class="nav">
-                <li class="nav-item home-link">
-                    <a href="/" class="home-link">HOME</a>
-                </li>
-                <li class="nav-item">
-                    <a href="https://github.com/ainethompson">GITHUB</a>
-                </li>
-                <li class="nav-item">
-                    <a href="https://www.linkedin.com/in/%C3%A1ine-thompson-748694184/">LINKEDIN</a>
-                </li>
-            </ul>
 
-            <img src="/static/darker-pink-logo.png" id="name-logo">
+{% extends 'base.html' %}
 
-            <ul id="right-nav" class="nav">
-                <li class="nav-item">
-                    <a href="/my-story">MY STORY</a>
-                </li>
-                <li class="nav-item">
-                    <a href="my-app">MY APP</a>
-                </li>
-                <li class="nav-item">
-                    <a href="/resume">RESUME</a>
-            </ul>
-        </nav>
-
-        <div class="row">
-            <div class="col-4">
-                <img src="/static/headshot.jpg" class="headshot">
-            </div>
-    
-            <div class="col-9 definition float-right">
-                <p>
-                    <h1 id="name">ÁINE </h1><h2 id="pronunciation">| ahn-ya |</h2>
-                </p>
-                <p id="job-title">SOFTWARE ENGINEER</p>
-                <p id="synonyms">
-                    <!-- <p>Software Engineer</p> -->
-                    values driven • detail oriented • solution focused
-                </p>
-
-                <!-- MAKE ORDERED LIST FOR HANGING INDENT -->
-                <ol>
-                    <li>
-                        <p>Creating beautiful and strategic solutions to everyday obstacles</p>
-                    </li>
-                    <li>
-                        <p>Passionate about streamlining databases for efficiency and ease of use;
-                            eager to gain skills and tools to achieve optimal results, 
-                            adaptable, resourceful, curious, etc,etc,etc.</p>
-                    </li>
-                    <li>
-                        <p class="no-gap">Proficiencies:</p>
-                        <p class="indent">
-                            Python3, JavaScript, HTML, CSS, React (ReactDOM, ReactRouter), 
-                            SQL (SQLAlchemy, PostgreSQL), Flask, Jinja2, JSX, etc.
-                        </p>
-                    </li>
-                </ol>
-
-                <a href="/my-background" class="more-about-me">MORE ON MY CODING BACKGROUND...</a>
-            </div>
+{% block content %}
+    <div class="row">
+        <div class="col-4">
+            <img src="/static/headshot.jpg" class="headshot">
         </div>
-    </body>
-</html>
+
+        <div class="col-9 definition float-right">
+            <p>
+                <h1 id="name">ÁINE </h1><h2 id="pronunciation">| ahn-ya |</h2>
+            </p>
+            <p id="job-title">SOFTWARE ENGINEER</p>
+            <p id="synonyms">
+                <!-- <p>Software Engineer</p> -->
+                values driven • detail oriented • solution focused
+            </p>
+
+            <!-- MAKE ORDERED LIST FOR HANGING INDENT -->
+            <ol>
+                <li>
+                    <p>Creating beautiful and strategic solutions to everyday obstacles</p>
+                </li>
+                <li>
+                    <p>Passionate about streamlining databases for efficiency and ease of use;
+                        eager to gain skills and tools to achieve optimal results, 
+                        adaptable, resourceful, curious, etc,etc,etc.</p>
+                </li>
+                <li>
+                    <p class="no-gap">Proficiencies:</p>
+                    <p class="indent">
+                        Python3, JavaScript, HTML, CSS, React (ReactDOM, ReactRouter), 
+                        SQL (SQLAlchemy, PostgreSQL), Flask, Jinja2, JSX, etc.
+                    </p>
+                </li>
+            </ol>
+
+            <a href="/my-background" class="more-about-me">MORE ON MY CODING BACKGROUND...</a>
+        </div>
+    </div>
+{% endblock %}
+
