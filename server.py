@@ -12,7 +12,8 @@ def homepage():
 
 @app.route('/resume')
 def show_resume():
-    pass
+    """Show my resume"""
+    return render_template("hb-tech-resume.html")
 
 
 @app.route('/my-story')
@@ -21,11 +22,11 @@ def show_bio():
     return render_template("my-story.html")
 
 
-# @app.route('/my-background')
-# def show_my_background():
-#     """ Show page with info about my education/coding background """
+@app.route('/my-background')
+def show_my_background():
+    """ Show page with info about my education/coding background """
 
-#     return render_template("my-background.html")
+    return render_template("my-background.html")
 
 
 if __name__ == '__main__':
