@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(255, 233, 248);
+    background-color: #D5E3EB;
+    /* rgb(255, 233, 248); */
     margin: 2% 2%;
     line-height: 1.5;
     font-family: 'Cormorant Garamond', serif;
@@ -47,12 +48,16 @@ ul {
     border-bottom: 1px solid lightgrey;
 }
 .home-link {
-    color: rgb(236, 39, 161);
+    /* color: rgb(236, 39, 161); */
+    color: #287FA4;
 }
 
 
 /* HOMEPAGE BODY */
 
+.container-sm {
+    max-width: 100%;
+}
 .headshot {
     width: 100%;
     margin-left: 8%;
@@ -75,6 +80,7 @@ ul {
     font-size: calc(2px + 2vw);
 }
 .definition {
+    background-color:rgba(40, 127, 164, 0.5);
     width: 60%;
     align-items: right;
     font-family: 'Cormorant Garamond', serif;
@@ -87,7 +93,8 @@ ul {
     color: black;
 }
 #synonyms {
-    color: rgb(248, 34, 166);
+    color: #C4F3FF;
+    /* rgb(248, 34, 166); */
     font-family: 'Arapey', serif;
     font-size: calc(2px + 2vw);
 }
@@ -100,11 +107,12 @@ ul {
 .more-about-me {
     margin-left: 20%;
     margin-right: 20%;
-    color: rgb(248, 34, 166);
+    color: #C4F3FF;
+    /* rgb(248, 34, 166); */
     font-family: 'Montserrat', sans-serif;
     font-size: calc(1vw + 1px);
     font-style: italic;
-    border-bottom: 0.5px solid rgb(248, 34, 166);
+    border-bottom: 0.5px solid #C4F3FF;
 }
 
 
@@ -116,11 +124,15 @@ ul {
     font-size: calc(4px + 1vw);
     text-align: center;
     position: sticky;
+    bottom: 0;
 }
 
 
 /* MY BACKGROUND */
+.my-bg {
+    text-align: center;
 
+}
 
 
 /* RESUME */
